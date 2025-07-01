@@ -2,9 +2,9 @@ from fastapi import FastAPI
 from app.api.v1 import router as v1_router
 
 app = FastAPI(
-    title="Python API Demo",
-    description="Standardized API Demo Framework",
-    version="0.1.0",
+    title="FastAPI Service",
+    description="Standardized API Service",
+    version="1.0",
     openapi_url="/api/v1/openapi.json"
 )
 

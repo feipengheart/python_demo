@@ -37,7 +37,6 @@ python main.py
 │   │       └── schemas/      # 请求/响应数据模型
 │   │           └── default.py # 基础数据模型
 │   ├── core/                 # 核心功能模块
-│   │   ├── config.py         # 应用配置管理
 │   │   └── utils/            # 工具类
 │   │       ├── datetime_utils.py # 日期时间工具
 │   │       └── logger.py     # 日志记录工具
@@ -60,7 +59,6 @@ python main.py
 
 - **app/core/**
   - 核心功能和基础配置
-  - `config.py`: 应用配置管理
   - `utils/`: 
     - `datetime_utils.py`: 日期时间处理工具
     - `logger.py`: 日志记录工具
